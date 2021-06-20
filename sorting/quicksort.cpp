@@ -17,6 +17,7 @@ int partitionFunc(vector<int> &arr,int start,int end){
     }
     return left;
 }
+
 void quickSortSubarray(vector<int> &arr,int start,int end){
 if(start>=end) return;
 int partition = partitionFunc(arr,start,end);
